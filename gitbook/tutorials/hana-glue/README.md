@@ -24,13 +24,14 @@ Learn how to efficiently replicate SAP HANA tables to AWS using AWS Glue ETL job
 
 ## Architecture Overview
 
-
+```mermaid
 graph LR
     A[SAP HANA] --> B[AWS Glue Job]
     B --> C[S3 Bucket]
     C --> D[Glue Crawler]
     D --> E[Glue Catalog]
-
+    E --> F[AWS Athena]
+```
 
 {% hint style="info" %}
 This tutorial focuses on sandbox implementation. For production environments, additional security measures should be implemented.
