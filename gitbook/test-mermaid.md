@@ -8,3 +8,9 @@ graph TD;
     C --> E[End];
     D --> E;
 ```
+
+```mermaid
+graph TD
+  Mermaid --> Diagram
+```
+
