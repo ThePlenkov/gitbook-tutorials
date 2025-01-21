@@ -18,4 +18,5 @@
 
 ***
 
-* [Test mermaid](test-mermaid.md)
+* [Test mermaid](test-mermaid/README.md)
+  * [Page 1](test-mermaid/page-1.md)

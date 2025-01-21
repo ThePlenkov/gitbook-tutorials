@@ -14,3 +14,9 @@ graph TD
   Mermaid --> Diagram
 ```
 
+```python
+// Some code
+```
+
+{% embed url="https://gist.github.com/ThePlenkov/ec4310d5781ebc753fb81dc7816b6ec7" %}
+
