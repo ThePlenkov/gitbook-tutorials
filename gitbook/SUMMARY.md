@@ -1,21 +1,13 @@
 # Table of contents
 
-* [Welcome](README.md)
+- [Welcome](README.md)
 
-## Getting Started
+## Tutorials
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
-
-***
-
-* [Test mermaid](test-mermaid.md)
+- [Replicate SAP HANA Tables in AWS Glue](tutorials/hana-glue/README.md)
+  - [Prepare HANA Credentials](tutorials/hana-glue/pages/hana-setup.md)
+  - [Prepare AWS Glue](tutorials/hana-glue/pages/glue-setup.md)
+  - [Configure Secrets Manager](tutorials/hana-glue/pages/secrets.md)
+  - [Create S3 Bucket](tutorials/hana-glue/pages/s3-setup.md)
+  - [Create ETL Script](tutorials/hana-glue/pages/etl-script.md)
+  - [Configure Glue Crawler](tutorials/hana-glue/pages/crawler-setup.md)
