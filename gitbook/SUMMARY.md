@@ -2,23 +2,11 @@
 
 - [Welcome](README.md)
 
-## Getting Started
-
-- [Quickstart](getting-started/quickstart.md)
-- [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-- [Editor](basics/editor.md)
-- [Markdown](basics/markdown.md)
-- [Images & media](basics/images-and-media.md)
-- [Interactive blocks](basics/interactive-blocks.md)
-- [OpenAPI](basics/openapi.md)
-- [Integrations](basics/integrations.md)
-
 ## Tutorials
 
-- [Building Your First API Documentation](tutorials/sample/README.md)
-  - [Installation](tutorials/sample/pages/installation.md)
-  - [Configuration](tutorials/sample/pages/configuration.md)
-  - [Deployment](tutorials/sample/pages/deployment.md)
+- [Replicate SAP HANA Tables in AWS Glue](tutorials/hana-glue/README.md)
+  - [Prepare HANA Credentials](tutorials/hana-glue/pages/01-hana-setup.md)
+  - [Prepare AWS Glue](tutorials/hana-glue/pages/02-aws-setup.md)
+  - [Configure Secrets Manager](tutorials/hana-glue/pages/03-secrets.md)
+  - [Create S3 Bucket](tutorials/hana-glue/pages/04-s3-setup.md)
+  - [Configure Glue Crawler](tutorials/hana-glue/pages/05-crawler-setup.md)
