@@ -1,4 +1,3 @@
-
 ---
 icon: rocket
 cover: https://images.unsplash.com/photo-1519389950473-47ba0277781c
@@ -29,7 +28,7 @@ Start by creating a new space in GitBook and importing your OpenAPI specificatio
 1. Create a new space
 2. Navigate to Integrations
 3. Enable the OpenAPI integration
-{% endtab %}
+   {% endtab %}
 
 {% tab title="Step 2: Structure" %}
 Organize your documentation with these sections:
@@ -39,8 +38,8 @@ Organize your documentation with these sections:
 - Endpoints
 - Examples
 - Troubleshooting
-{% endtab %}
-{% endtabs %}
+  {% endtab %}
+  {% endtabs %}
 
 {% hint style="info" %}
 Remember to keep your API documentation up to date as your API evolves!
