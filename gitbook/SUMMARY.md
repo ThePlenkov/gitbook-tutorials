@@ -9,4 +9,5 @@
   - [Prepare AWS Glue](tutorials/hana-glue/pages/glue-setup.md)
   - [Configure Secrets Manager](tutorials/hana-glue/pages/secrets.md)
   - [Create S3 Bucket](tutorials/hana-glue/pages/s3-setup.md)
+  - [Create ETL Script](tutorials/hana-glue/pages/etl-script.md)
   - [Configure Glue Crawler](tutorials/hana-glue/pages/crawler-setup.md)
