@@ -15,10 +15,11 @@ Set up storage for your replicated data.
 
 ## Folder Structure
 
-
+```
 hana-replication-data/
 ├── raw/
 │   ├── flights/
 │   ├── bookings/
 │   └── passengers/
 └── processed/
+```

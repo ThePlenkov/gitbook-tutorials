@@ -16,7 +16,7 @@ Store SAP HANA credentials securely in AWS Secrets Manager.
 
 ## Access Pattern
 
-
+```python
 import boto3
 import json
 
@@ -26,3 +26,4 @@ def get_hana_credentials():
     client = session.client('secretsmanager')
     secret = client.get_secret_value(SecretId=secret_name)
     return json.loads(secret['SecretString'])
+```
